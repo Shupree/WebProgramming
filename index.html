@@ -1,21 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- 1. Reset CSS : 브라우저 기본 스타일 초기화 -->
+    <title>DEAD BY DAYLIGHT | 인터랙티브 포스터</title>
     <link rel="stylesheet" href="./style/reset.css" />
-    <!-- 2. Main CSS : 우리가 작성한 디자인 적용 -->
     <link rel="stylesheet" href="./style/style.css" />
-    <!-- 3. jQuery Library : jQuery CDN 연결-->
     <script
       src="https://code.jquery.com/jquery-4.0.0.min.js"
       integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
       crossorigin="anonymous"
     ></script>
-    <!-- 4. My JavaScript : 우리가 작성한 스크립트 코드 연결 -->
     <script src="./js/script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="poster">
+      <img id="background" class="layer" src="./assets/background.png" />
+
+      <img id="murders" class="layer" src="./assets/murders.png" />
+      <img id="characters" class="layer" src="./assets/characters.png" />
+      <img id="logo" class="layer" src="./assets/logo.png" />
+
+      <img id="crow01" class="layer crow" src="./assets/crow01.png" />
+      <img id="crow02" class="layer crow" src="./assets/crow02.png" />
+
+      <div id="blinder">
+        <img id="blinder-image" src="./assets/blinder.png" />
+        <div id="blinder-core"></div>
+      </div>
+    </div>
+  </body>
 </html>
