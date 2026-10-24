@@ -6,7 +6,7 @@ $(document).ready(function () {
     let mouseX = event.pageX;
     let moveX = mouseX / wWidth - 0.5;
 
-    $("#characters").css("margin-left", moveX * 2.4 + "%");
+    $("#characters").css("margin-left", moveX * 4.4 + "%");
     $("#murders").css("margin-left", moveX * 0.9 + "%");
   });
 
